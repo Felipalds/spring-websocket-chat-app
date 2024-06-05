@@ -1,2 +1,9 @@
-package felipalds.websocketchatapp.controllers;public class Auth {
+package felipalds.websocketchatapp.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Auth {
+
 }

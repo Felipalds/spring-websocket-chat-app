@@ -1,2 +1,9 @@
-package felipalds.websocketchatapp.domains;public enum MessageType {
+package felipalds.websocketchatapp.domains;
+
+import lombok.*;
+
+public enum MessageType {
+    CHAT,
+    JOIN,
+    LEAVE
 }
